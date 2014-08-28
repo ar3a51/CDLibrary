@@ -1,0 +1,27 @@
+﻿@{
+    
+    ViewBag.Title = "CD Library System";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="@Url.Content("~/assets/scripts/css/style.css")">
+    @RenderSection("Scripts", false)
+</head>
+<body>
+    <div>
+        <!--HEADER-->
+            @RenderPage("~/Views/Shared/_Header.cshtml")
+        <!--END HEADER-->
+        <div id="Body">
+            @RenderBody()
+
+        </div>
+       
+    </div>
+</body>
+</html>

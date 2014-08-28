@@ -1,0 +1,74 @@
+﻿@model CDLibrary.Common.CD
+
+@{
+    ViewBag.Title = "CD Information";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h1>CD Information</h1>
+
+@{
+    
+    if (Model == null){
+        <h2>Invalid CD ID</h2>
+        return;
+    }
+}
+
+<fieldset>
+    <legend>CD</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Title)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Artist)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Artist)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Subject)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Subject)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.quantity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.quantity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.insertDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.insertDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.updateDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.updateDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.insertBy)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.insertBy)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CDid })
+    
+    @Html.ActionLink("Back to List", "Index")
+</p>

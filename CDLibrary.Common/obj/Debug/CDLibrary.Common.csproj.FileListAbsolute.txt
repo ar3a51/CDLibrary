@@ -1,0 +1,12 @@
+F:\Projects\CDLibrary.Common\CDLibrary.Common\bin\Debug\CDLibrary.Common.dll.config
+F:\Projects\CDLibrary.Common\CDLibrary.Common\bin\Debug\CDLibrary.Common.dll
+F:\Projects\CDLibrary.Common\CDLibrary.Common\bin\Debug\CDLibrary.Common.pdb
+F:\Projects\CDLibrary.Common\CDLibrary.Common\obj\Debug\CDLibrary.Common.csprojResolveAssemblyReference.cache
+F:\Projects\CDLibrary.Common\CDLibrary.Common\obj\Debug\CDLibrary.Common.dll
+F:\Projects\CDLibrary.Common\CDLibrary.Common\obj\Debug\CDLibrary.Common.pdb
+F:\Projects\CDLibrary\CDLibrary.Common\bin\Debug\CDLibrary.Common.dll.config
+F:\Projects\CDLibrary\CDLibrary.Common\bin\Debug\CDLibrary.Common.dll
+F:\Projects\CDLibrary\CDLibrary.Common\bin\Debug\CDLibrary.Common.pdb
+F:\Projects\CDLibrary\CDLibrary.Common\obj\Debug\CDLibrary.Common.dll
+F:\Projects\CDLibrary\CDLibrary.Common\obj\Debug\CDLibrary.Common.pdb
+F:\Projects\CDLibrary\CDLibrary.Common\obj\Debug\CDLibrary.Common.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+F:\Projects\CDLibrary\CDLibrary.BL\obj\Debug\CDLibrary.BL.csprojResolveAssemblyReference.cache
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\CDLibrary.BL.dll
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\CDLibrary.BL.pdb
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\CDLibrary.Common.dll
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\CDLibraryDataLayer.dll
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\EntityFramework.dll
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\CDLibrary.Common.pdb
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\CDLibraryDataLayer.pdb
+F:\Projects\CDLibrary\CDLibrary.BL\bin\Debug\EntityFramework.xml
+F:\Projects\CDLibrary\CDLibrary.BL\obj\Debug\CDLibrary.BL.dll
+F:\Projects\CDLibrary\CDLibrary.BL\obj\Debug\CDLibrary.BL.pdb

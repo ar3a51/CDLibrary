@@ -1,0 +1,36 @@
+﻿<div id="Header">
+    <span id="logo">
+        <img width="35" height="35" src="@Url.Content("~/assets/images/icons/CDSoftware48.png")" />
+    </span>
+    <span id="Title">
+        <b>CD LIBRARY INFO SYSTEM</b>
+    </span>
+    <ul class="menu">
+        <li>
+            <div><a href="#"><img src="@Url.Content("~/assets/images/icons/CD24.png")" /><!--CD Library--></a></div>
+            <ul class="sub-menu">
+
+                <li>@Html.ActionLink("Add CD","Add","CD")</li>
+                <li><a href="#">Search CD</a></li>
+                <li><a href="#">Browse CD</a></li>
+            </ul>
+        </li>
+        <li>
+            <div><a href="#"><img src="@Url.Content("~/assets/images/icons/people24.png")" /><!--Prospects--></a></div>
+            <ul class="sub-menu">
+                <li><a href="#">Add new Prospects</a></li>
+                <li><a href="#">Search Prospects</a></li>
+                <li><a href="#">Browse Prospects</a></li>
+            </ul>
+        </li>
+        <li>
+            <div><a href="#"><img src="@Url.Content("~/assets/images/icons/mg24.png")" alt="search" /></a></div>
+            <ul class="sub-menu">
+                <li><a href="#">Search CD by Title</a></li>
+                <li><a href="#">Search CD by Artist</a></li>
+                <li><a href="#">Search Prospect by Name</a></li>
+                <li><a href="#">Search Prospect by Phone</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>

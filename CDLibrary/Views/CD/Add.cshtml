@@ -1,0 +1,80 @@
+﻿@model CDLibrary.Common.CD
+
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h1>Create CD Record</h1>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>CD</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Title)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Title, new {ID="txtTitle" })
+            @Html.ValidationMessageFor(model => model.Title)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Artist)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Artist, new { id="txtArtist"})
+            @Html.ValidationMessageFor(model => model.Artist)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.quantity)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.quantity, new {id="txtQuantity"})
+            @Html.ValidationMessageFor(model => model.quantity)
+        </div>
+        <!--
+        <div class="editor-label">
+            @Html.LabelFor(model => model.insertDate)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.insertDate)
+            @Html.ValidationMessageFor(model => model.insertDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.updateDate)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.updateDate)
+            @Html.ValidationMessageFor(model => model.updateDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.insertBy)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.insertBy)
+            @Html.ValidationMessageFor(model => model.insertBy)
+        </div>
+            -->
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List","index", "Home")
+</div>
+
+@section Scripts{
+
+    <link rel="stylesheet" href="@Url.Content("~/assets/scripts/css/CD.css")" />
+}
+
+

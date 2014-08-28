@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDLibrary", "CDLibrary\CDLibrary.csproj", "{6E3BFEF0-FBE0-4B34-AABA-0113FE8B3C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDLibrary.Common", "CDLibrary.Common\CDLibrary.Common.csproj", "{1446BD49-648E-4D52-B4D7-C543DF183396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDLibraryTest", "CDLibraryTest\CDLibraryTest.csproj", "{0847F2E2-F5B5-41B7-83CF-28A14AF297A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDLibraryDataLayer", "CDLibraryDataLayer\CDLibraryDataLayer.csproj", "{1B62210C-07CB-4E42-9AA3-A17703A4CD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDLibrary.BL", "CDLibrary.BL\CDLibrary.BL.csproj", "{8247C2A0-3B57-457D-A1CA-A1040CF455C5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://hpradeveloper.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CDLibrary.Common\\CDLibrary.Common.csproj
+		SccProjectName1 = CDLibrary.Common
+		SccLocalPath1 = CDLibrary.Common
+		SccProjectUniqueName2 = CDLibraryTest\\CDLibraryTest.csproj
+		SccProjectName2 = CDLibraryTest
+		SccLocalPath2 = CDLibraryTest
+		SccProjectUniqueName3 = CDLibrary\\CDLibrary.csproj
+		SccProjectName3 = CDLibrary
+		SccLocalPath3 = CDLibrary
+		SccProjectUniqueName4 = CDLibraryDataLayer\\CDLibraryDataLayer.csproj
+		SccProjectName4 = CDLibraryDataLayer
+		SccLocalPath4 = CDLibraryDataLayer
+		SccProjectUniqueName5 = CDLibrary.BL\\CDLibrary.BL.csproj
+		SccProjectName5 = CDLibrary.BL
+		SccLocalPath5 = CDLibrary.BL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3BFEF0-FBE0-4B34-AABA-0113FE8B3C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3BFEF0-FBE0-4B34-AABA-0113FE8B3C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3BFEF0-FBE0-4B34-AABA-0113FE8B3C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3BFEF0-FBE0-4B34-AABA-0113FE8B3C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1446BD49-648E-4D52-B4D7-C543DF183396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1446BD49-648E-4D52-B4D7-C543DF183396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1446BD49-648E-4D52-B4D7-C543DF183396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1446BD49-648E-4D52-B4D7-C543DF183396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0847F2E2-F5B5-41B7-83CF-28A14AF297A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0847F2E2-F5B5-41B7-83CF-28A14AF297A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0847F2E2-F5B5-41B7-83CF-28A14AF297A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0847F2E2-F5B5-41B7-83CF-28A14AF297A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B62210C-07CB-4E42-9AA3-A17703A4CD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B62210C-07CB-4E42-9AA3-A17703A4CD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B62210C-07CB-4E42-9AA3-A17703A4CD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B62210C-07CB-4E42-9AA3-A17703A4CD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8247C2A0-3B57-457D-A1CA-A1040CF455C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8247C2A0-3B57-457D-A1CA-A1040CF455C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8247C2A0-3B57-457D-A1CA-A1040CF455C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8247C2A0-3B57-457D-A1CA-A1040CF455C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

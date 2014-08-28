@@ -1,0 +1,16 @@
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibraryTest.dll
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibraryTest.pdb
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\EntityFramework.dll
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibrary.Common.dll
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\EntityFramework.xml
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibrary.Common.pdb
+F:\Projects\CDLibrary\CDLibraryTest\obj\Debug\CDLibraryTest.csprojResolveAssemblyReference.cache
+F:\Projects\CDLibrary\CDLibraryTest\obj\Debug\CDLibraryTest.dll
+F:\Projects\CDLibrary\CDLibraryTest\obj\Debug\CDLibraryTest.pdb
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibraryTest.dll.config
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\EntityFramework.SqlServer.xml
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibraryDataLayer.dll
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibraryDataLayer.pdb
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibrary.BL.dll
+F:\Projects\CDLibrary\CDLibraryTest\bin\Debug\CDLibrary.BL.pdb
