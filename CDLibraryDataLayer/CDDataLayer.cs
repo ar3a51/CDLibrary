@@ -108,6 +108,7 @@ namespace CDLibraryDataLayer
             try
             {
                 context.CDLoans.Add(loanInfo);
+
                 return true;
             }
             catch (Exception ex)
