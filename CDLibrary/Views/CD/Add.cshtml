@@ -7,7 +7,7 @@
 
 <h1>Create CD Record</h1>
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm("addNewCD","CD",FormMethod.Post,new {id="frmAddCD"})) {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
