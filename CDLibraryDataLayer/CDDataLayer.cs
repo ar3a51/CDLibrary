@@ -85,23 +85,18 @@ namespace CDLibraryDataLayer
             return context.SaveChanges();
         }
 
-        
 
-        public override IEnumerable<Prospect> findCDLoanById(long cdid, int length, int page, String owner)
+        public override ICollection<CD> FindCDLoanedbyProspectId(long prospectID, int length, int page, String owner)
         {
-
             page = page - 1;
 
-
-
             return (from cl in context.CDLoans
-                    join p in context.Prospects on cl.prospectId equals p.prospectID
-                    where cl.CDid == cdid && cl.insertBy.Equals(owner)
-                    select p 
-                     ).Take(length).OrderBy(p => p.Lastname).Skip(length * page).ToList<Prospect>();
-
-          
+                    join c in context.CDs on cl.CDid equals c.CDid
+                    where cl.prospectId == prospectID && cl.insertBy.Equals(owner)
+                    select c).Take(length).OrderBy(c => c.Title).Skip(page * length).ToList<CD>();
         }
+
+      
     
         public override bool addLoanInformation(CDLoan loanInfo)
         {

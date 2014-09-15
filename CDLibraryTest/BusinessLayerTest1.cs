@@ -50,7 +50,7 @@ namespace CDLibraryTest
         [TestMethod]
         public void getAllCDLoaned()
         {
-            List<StructCDProspect> result = ProspectRepository.GetAllCDFromProspect(15, 1, 1, "me") as List<StructCDProspect>;
+            List<StructCDProspect> result = ProspectRepository.GetAllCDFromProspect(4, 1, 1, "me") as List<StructCDProspect>;
 
             Assert.IsNotNull(result);
             Assert.AreEqual(1, result.Count);
@@ -66,7 +66,7 @@ namespace CDLibraryTest
         [TestMethod]
         public void loanACD()
         {
-            Assert.IsTrue(ProspectRepository.LoanCD(15, 24, 3, DateTime.Parse("2014-06-29"),"me"));
+            Assert.IsTrue(ProspectRepository.LoanCD(4, 2, 3, DateTime.Parse("2014-06-29"), "me"));
 
         }
 
@@ -113,7 +113,7 @@ namespace CDLibraryTest
         [TestMethod]
         public void updateCD()
         {
-            CD cd = CDRepository.FindCDById(24,"me");
+            CD cd = CDRepository.FindCDById(4,"me");
             cd.updateDate = DateTime.Now;
            
             cd.quantity = 8;

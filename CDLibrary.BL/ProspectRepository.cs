@@ -59,7 +59,7 @@ namespace CDLibrary.BL
             {
                 list.Clear();
 
-                List<CD> cdList = ProspectProviderManager.Default.FindCDLoanedbyProspectId(prospectId, length, page, owner) as List<CD>;
+                List<CD> cdList = CDProviderManager.Default.FindCDLoanedbyProspectId(prospectId, length, page, owner) as List<CD>;
 
                 StructCDProspect structC;
 

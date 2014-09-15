@@ -23,7 +23,8 @@ namespace CDLibraryDataLayer.Abstracts
 
         public abstract Boolean loanCD(Prospect prospectObject, CD CDObject, DateTime endLoanDate, String insertBy);
 
-        public abstract ICollection<CD> FindCDLoanedbyProspectId(long prospectID, int length, int page, String owner);
+       
+        public abstract IEnumerable<Prospect> findCDLoanById(long cdid, int length, int page, String owner);
 
         public abstract int saveChanges();
         

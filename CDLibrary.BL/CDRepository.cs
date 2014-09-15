@@ -55,7 +55,7 @@ namespace CDLibrary.BL
             lock (syncObject)
             {
 
-                List<Prospect> result = CDProviderManager.Default.findCDLoanById(cdid, length,
+                List<Prospect> result = ProspectProviderManager.Default.findCDLoanById(cdid, length,
                                                                                 pageNumber,
                                                                                 insertBy) as List<Prospect>;
 
